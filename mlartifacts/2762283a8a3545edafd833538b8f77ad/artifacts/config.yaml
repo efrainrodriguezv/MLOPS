@@ -1,0 +1,36 @@
+# Single source of truth for the pipeline. Change values here, not in code.
+data:
+  raw_path: data/raw/athletes.csv          # athletes.csv or athletes.csv.zip
+  processed_dir: data/processed
+  test_size: 0.2
+  seed: 42
+  feature_timestamp: "2024-01-01"          # Feast needs an event timestamp per feature row
+
+feature_store:
+  repo_path: feature_repo
+  # Feature "versions" = Feast feature services (see feature_repo/features.py)
+  versions:
+    v1: athlete_features_v1                # basic body metrics
+    v2: athlete_features_v2                # v1 + engineered/survey features
+
+model:
+  algorithm: RandomForestRegressor         # same algorithm for every run (no AutoML)
+  target: total_lift
+
+hyperparameters:
+  hp_light:                                # small, regularized forest
+    n_estimators: 100
+    max_depth: 10
+    min_samples_leaf: 5
+    max_features: 0.5
+  hp_heavy:                                # large, deep forest (3x the trees, twice the depth)
+    n_estimators: 300
+    max_depth: 20
+    min_samples_leaf: 2
+    max_features: 1.0
+
+mlflow:
+  experiment_name: athletes-total-lift
+
+carbon:
+  country_iso_code: USA                    # used by CodeCarbon's offline tracker

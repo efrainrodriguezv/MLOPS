@@ -1,0 +1,5 @@
+run_id,run_name,feature_version,hp_set,mae,rmse,r2,train_seconds,energy_wh,emissions_g_co2eq
+1892cdd9c4f3497ebd4d61d337353d0b,features_v1__hp_heavy,v1,hp_heavy,136.578,175.916,0.5971,0.6441,0.0026,0.001
+babbade60faa49ac8eb3137aa3ceb739,features_v1__hp_light,v1,hp_light,128.8594,165.6877,0.6426,0.138,0.0006,0.0002
+e0671a04fe3447d984f21f2f89a39873,features_v2__hp_heavy,v2,hp_heavy,113.7557,149.0136,0.7109,1.8515,0.0259,0.0096
+81eea3e50fde4110be126a5517bfb941,features_v2__hp_light,v2,hp_light,112.291,146.8531,0.7192,0.2272,0.0032,0.0012

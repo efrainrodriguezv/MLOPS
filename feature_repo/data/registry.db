@@ -1,0 +1,112 @@
+
+g
+G
+athlete&One CrossFit athlete from athletes.csv"
+athlete_idJathletes
+Ë¥×Àüˆ¨Ë¥×Àüˆ¨
+?
+
+__dummy"
+__dummy_idJathletes
+Ë¥×°¢Œ¨Ë¥×°¢Œ¨1"$427dbfb9-8a62-4bf0-83fc-24865ac68fea*ªË¥×¬ø´2›
+à
+athlete_basicathletesathlete"
+age"
+
+height"
+
+weight"
+gender_male*
+version12€†°–:Øevent_timestampZYW/Users/efrainrodriguez/Downloads/athletes-mlops_a5/data/processed/athlete_basic.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢athlete_basic_source’Ë¥×¸¼É£"Ë¥× Øà§@b
+
+athlete_id’latest6
+Ë¥×àŠå§¨Ë¥× ò¨˜
+€‡µÃ§îª×ØÆéî02ª
+ï
+athlete_engineeredathletesathlete"
+bmi"
+region_code"
+howlong_ord"	
+eat_n"
+background_n"
+experience_n"
+
+schedule_n"
+exp_began_with_coach"
+sched_multi_daily"
+bg_college_sports*
+version22€†°–:âevent_timestampZ^\/Users/efrainrodriguez/Downloads/athletes-mlops_a5/data/processed/athlete_engineered.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢athlete_engineered_source’Ë¥× ¯Ğ£"Ë¥×ÀÎÄ§@b
+
+athlete_id’latest6
+Ë¥×¨º÷§ªË¥×Èêë´
+€‡µÃ§îª×ØÆéî0:Ş
+½
+athlete_features_v1athletesõ
+athlete_basic
+age
+
+height
+
+weight
+gender_maleB¤event_timestampZYW/Users/efrainrodriguez/Downloads/athletes-mlops_a5/data/processed/athlete_basic.parquet¢athlete_basic_source’Ë¥×¸¼É£"Ë¥× Øà§ZfeatureView*$Feature version 1: body metrics only
+Ë¥× È¨Ë¥× È¨:
+à
+athlete_features_v2athletesõ
+athlete_basic
+age
+
+height
+
+weight
+gender_maleB¤event_timestampZYW/Users/efrainrodriguez/Downloads/athletes-mlops_a5/data/processed/athlete_basic.parquet¢athlete_basic_source’Ë¥×¸¼É£"Ë¥× Øà§ZfeatureView„
+athlete_engineered
+bmi
+region_code
+howlong_ord	
+eat_n
+background_n
+experience_n
+
+schedule_n
+exp_began_with_coach
+sched_multi_daily
+bg_college_sportsB®event_timestampZ^\/Users/efrainrodriguez/Downloads/athletes-mlops_a5/data/processed/athlete_engineered.parquet¢athlete_engineered_source’Ë¥× ¯Ğ£"Ë¥×ÀÎÄ§ZfeatureView*@Feature version 2: body metrics + engineered and survey features
+Ë¥× ³–¨Ë¥× ³–¨bíevent_timestampZ^\/Users/efrainrodriguez/Downloads/athletes-mlops_a5/data/processed/athlete_engineered.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢athlete_engineered_sourceªathletes’Ë¥× ¯Ğ£"Ë¥×ÀÎÄ§bãevent_timestampZYW/Users/efrainrodriguez/Downloads/athletes-mlops_a5/data/processed/athlete_basic.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢athlete_basic_sourceªathletes’Ë¥×¸¼É£"Ë¥× Øà§z0
+athletes$dbca85a8-7f7e-4059-8620-6a6c37a1513cŠ*
+
+
+athletes
+Ë¥×€şÉ§Ë¥×€şÉ§’Ø
+ß
+athlete_basicathletes"feature_view*
+à
+athlete_basicathletesathlete"
+age"
+
+height"
+
+weight"
+gender_male*
+version12€†°–:Øevent_timestampZYW/Users/efrainrodriguez/Downloads/athletes-mlops_a5/data/processed/athlete_basic.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢athlete_basic_source’Ë¥×¸¼É£"Ë¥× Øà§@b
+
+athlete_id’latest
+Ë¥×àŠå§Ë¥×àŠå§2Ë¥× –ö§B$34d182b3-d635-49d4-ac19-b5ccd7be2b6d
+ó
+athlete_engineeredathletes"feature_view*
+ï
+athlete_engineeredathletesathlete"
+bmi"
+region_code"
+howlong_ord"	
+eat_n"
+background_n"
+experience_n"
+
+schedule_n"
+exp_began_with_coach"
+sched_multi_daily"
+bg_college_sports*
+version22€†°–:âevent_timestampZ^\/Users/efrainrodriguez/Downloads/athletes-mlops_a5/data/processed/athlete_engineered.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢athlete_engineered_source’Ë¥× ¯Ğ£"Ë¥×ÀÎÄ§@b
+
+athlete_id’latest
+Ë¥×¨º÷§Ë¥×¨º÷§2Ë¥×ğï‡¨B$55ea9f80-3632-43b7-875a-7c90979da31c

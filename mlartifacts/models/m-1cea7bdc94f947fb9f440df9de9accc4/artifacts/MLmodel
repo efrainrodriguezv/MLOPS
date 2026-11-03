@@ -1,0 +1,38 @@
+artifact_path: file:///Users/efrainrodriguez/Downloads/athletes-mlops_a5/mlartifacts/models/m-1cea7bdc94f947fb9f440df9de9accc4/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.10.18
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+    - numpy.dtype
+is_signature_from_type_hint: false
+mlflow_version: 3.17.2
+model_id: m-1cea7bdc94f947fb9f440df9de9accc4
+model_size_bytes: 9308778
+model_uuid: m-1cea7bdc94f947fb9f440df9de9accc4
+prompts: null
+run_id: babbade60faa49ac8eb3137aa3ceb739
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "age", "required": true}, {"type": "double",
+    "name": "gender_male", "required": true}, {"type": "double", "name": "height",
+    "required": true}, {"type": "double", "name": "weight", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-03 04:39:45.610735'
